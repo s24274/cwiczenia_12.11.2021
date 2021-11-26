@@ -4,15 +4,14 @@ auto search(int a[10], int n, int needle) -> int
 {		
 	
 	for (int i = 0; i < n; i++)
-	{
+	
 			if (a[i]==needle)
 			{
 				return i;
 			}
-			else
-				return -1;
-	}
-				
+		
+			return -1;
+	
 }
 
 auto main() -> int 
